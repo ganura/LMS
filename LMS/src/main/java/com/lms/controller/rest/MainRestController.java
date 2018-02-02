@@ -22,7 +22,7 @@ public class MainRestController {
 	
 	@GetMapping(value="/anurag")
 	public String anurag() {
-		return "Hello Anurag!";
+		return "Hello Anurag bug fixed!";
 	}
 	
 	@GetMapping("/findAllBooks")

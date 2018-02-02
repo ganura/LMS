@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LmsApplication {
   
 	public static void main(String[] args) {
+		System.out.println("added for bug");
 		SpringApplication.run(LmsApplication.class, args);
+		System.out.println("added for bug too");
 	}
 }

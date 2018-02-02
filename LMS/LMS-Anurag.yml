@@ -1,0 +1,10 @@
+---
+applications:
+- name: LMS-Anurag
+  memory: 1024M
+  health-check-type: port
+  stack: cflinuxfs2
+  buildpack: java_buildpack
+  no-route: true
+  services:
+      - Mysql-Anurag
